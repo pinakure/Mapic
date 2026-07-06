@@ -1,3 +1,1 @@
-#!/bin/bash
-
-
+gcc source/TurboFX.s source/Map.c source/AllInput.c source/AllRenderer.c source/Gui.c source/Renderer.c source/Widget.c source/Sprite.c source/Mapic.c source/Profile.c source/Asset.c source/Tileset.c source/Input.c source/Ncommon.c source/Main.c -Iinclude -fpic -lalleg -o mapic
